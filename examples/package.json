@@ -1,0 +1,8 @@
+{
+  "name":"mustache-promise-examples",
+  "description":"mustache-promise examples",
+  "dependencies":{
+    "mustache-promise":"*",
+    "path":"*"
+ }
+}

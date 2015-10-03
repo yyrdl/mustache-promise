@@ -1,8 +1,11 @@
 {
   "name": "mustache-promise",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "mustache": "2.1.3",
+    "path": "*"
+  },
   "devDependencies": {
     "mustache": "2.1.3",
     "path": "*"
@@ -15,13 +18,13 @@
     "url": "git+https://github.com/yyrdl/nodemailer-mustache.git"
   },
   "keywords": [
-    "nodemailer-mustache"
+    "mustache"
   ],
   "author": "yyrdl",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yyrdl/nodemailer-mustache/issues"
   },
   "homepage": "https://github.com/yyrdl/nodemailer-mustache#readme",
-  "description": ""
+  "description": "support get templates from files when using mustache"
 }
