@@ -1,6 +1,7 @@
+# mustache-promise
 
 ##简介
-[mustache][1]库原生不支持从文件读取模板,这在某些时候操作起来就会有诸多不便，遂将`mustache`特别包装了一下，以方便
+[mustache](https://github.com/janl/mustache.js)库原生不支持从文件读取模板,这在某些时候操作起来就会有诸多不便，遂将`mustache`特别包装了一下，以方便
 使用
 
 ##Install From NPM
@@ -103,8 +104,4 @@ mst_pro.parse();
 var out=mst_pro.render(view1);
 console.log(out);
 ```
-
-
-[1](https://github.com/janl/mustache.js)
-
 
