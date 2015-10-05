@@ -104,4 +104,6 @@ mst_pro.parse();
 var out=mst_pro.render(view1);
 console.log(out);
 ```
+##一个使用案例
+[demo](http://www.cnblogs.com/yyrdl/p/4853528.html)
 
